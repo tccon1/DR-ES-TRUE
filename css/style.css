@@ -2,7 +2,7 @@ body {
     display: flex;
     margin-top: 50px;
     justify-content: center;
-    background-color: #FFFCFF;
+    background-color: blue;
   }
   button {
     width: 75px;
@@ -17,7 +17,7 @@ body {
   
   #header {
     padding: 10px;
-    color: #d36c6c;
+    color: white;
     font-size: 26px;
     font-family: sans-serif;
     display: flex;
@@ -32,7 +32,7 @@ body {
   #weekdays {
     width: 100%;
     display: flex;
-    color: #247BA0;
+    color: white;
   }
   #weekdays div {
     width: 100px;
@@ -58,16 +58,16 @@ body {
     justify-content: space-between;
   }
   .day:hover {
-    background-color: #e8faed;
+    background-color: green;
   }
   
   .day + #currentDay {
-    background-color:#e8f4fa;
+    background-color:orange;
   }
   .event {
     font-size: 10px;
     padding: 3px;
-    background-color: #58bae4;
+    background-color: black;
     color: white;
     border-radius: 5px;
     max-height: 55px;
@@ -82,7 +82,8 @@ body {
     display: none;
     z-index: 20;
     padding: 25px;
-    background-color: #e8f4fa;
+    background-color: white;
+    color-scheme: blue;
     box-shadow: 0px 0px 3px black;
     border-radius: 5px;
     width: 350px;
@@ -99,16 +100,16 @@ body {
     border-radius: 3px;
     outline: none;
     border: none;
-    box-shadow: 0px 0px 3px gray;
+    box-shadow: 0px 0px 3px black;
   }
   #eventTitleInput.error {
     border: 2px solid red;
   }
   #cancelButton, #deleteButton {
-    background-color: #d36c6c;
+    background-color: red;
   }
   #saveButton, #closeButton {
-    background-color: #92a1d1;
+    background-color: blue;
   }
   #eventText {
     font-size: 14px;
@@ -123,3 +124,46 @@ body {
     position: absolute;
     background-color: rgba(0,0,0,0.8);
   }
+
+  body {
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  h1, h2, h3 {
+    font-family: "Lobster", cursive;
+  }
+  
+  h2 {
+    color: #3046C5;
+  }
+  
+  header h2 {
+    color: #CEC8FF;
+  }
+  
+  .site-footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+  }
+  
+  .jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+    color: white;
+  }
+  
+  .navbar {
+    background-color: white;
+  }
+  
+  .carousel {
+    border: solid #5637dd;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /*# sourceMappingURL=styles.css.map */
+  
